@@ -1,1 +1,1 @@
-# Sanity for Web Portfolio
+# Sanity for Grace Website

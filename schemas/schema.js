@@ -163,6 +163,11 @@ export default createSchema({
 					name: 'slug',
 					title: 'Slug',
 					type: 'slug',
+					options: {
+						source: 'title',
+						maxLength: 100,
+					},
+
 					validation: (Rule) => {
 						return Rule.required();
 					},
